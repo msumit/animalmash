@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div, h1, span {
+    outline: none;
+}
+
+#app {
+    width: 700px;
+    height: 450px;
+    color: #333333;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    line-height: 1;
+    font: normal 36px serif;
+    text-align: center;
+    padding: 2px;
+}
+
+h2 {
+    margin: 0;
+    line-height: 1;
+    font-size: 24px;
+    text-align: center;
+    color: darkGray;
+    padding: 2px;
+}
+
+#credits {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    color: #999;
+    font-size: 0.9em;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+#credits a, #credits a:visited {
+    color: #888;
+}
+
+.thumb-even {
+    height: 100px;
+    margin: 10px 80px;
+}
+
+.thumb-odd {
+    background-color: #EEE;
+    height: 100px;
+    padding: 0 80px;
+}
+
+.likes {
+    color: #999;
+    font-size: 32px;
+    margin: 40px 100px 40px 250px;
+    position: absolute;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.x-clear {
+    clear: both;
+}
