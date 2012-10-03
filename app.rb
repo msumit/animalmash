@@ -15,11 +15,12 @@ get '/' do
 end
 
 get '/next' do
-  id1 = rand(60) + 1
-  id2 = rand(60) + 1
+  id1 = rand(60)
+  id2 = rand(60)
 
   if id1 == id2
-    redirect back
+    id1 = rand(30)
+    id2 = id1 + rand(31)
   end
 
   {"id1" => list[id1]['_id'], "image1" => list[id1]['image'], "id2" => list[id2]['_id'], "image2" => list[id2]['image']}.to_json
